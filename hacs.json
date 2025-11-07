@@ -1,5 +1,8 @@
 {
   "name": "Fail2ban Exporter",
   "render_readme": true,
-  "homeassistant": "2024.8.0"
+  "homeassistant": "2024.8.0",
+  "content_in_root": false,
+  "domains": ["sensor"],
+  "country": "global"
 }
