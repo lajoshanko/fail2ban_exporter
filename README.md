@@ -9,7 +9,7 @@ It allows you to monitor Fail2ban jails, active bans, and login failures directl
 
 ## Requirements
 
-This integration depends on the [Fail2ban Prometheus Exporter](https://github.com/hctrdev/fail2ban-prometheus-exporter) by @hctrdev.
+This integration depends on the [Fail2ban Prometheus Exporter](https://github.com/hctrdev/fail2ban-prometheus-exporter) by [@hctrde](https://github.com/hctrdev).
 
 The Docker image was originally designed for Prometheus and Grafana, but this integration allows Home Assistant to directly consume its metrics.
 
@@ -76,19 +76,10 @@ The integration will automatically discover all active jails and create sensors 
 ⸻
 
 ### Available Sensors
-
-Only metrics prefixed with f2b_ are processed and exposed.
-
 Sensor Name	Description
-<jail> Currently Banned IPs	Number of IPs currently banned
-<jail> Total Banned IPs	Total number of bans since startup
-<jail> Current Failures	Ongoing login failures
-<jail> Ban Time	Ban duration in seconds
-Global Active Jails	Number of defined jails
-Global Exporter Up	Exporter health status
-
-
-
-
-
-Would you like me to add a Troubleshooting section at the end with the most common errors (e.g., exporter not reachable, “unknown” sensor values, etc.)? It’s often helpful for GitHub users.
+- <jail> Currently Banned IPs	Number of IPs currently banned
+- <jail> Total Banned IPs	Total number of bans since startup
+- <jail> Current Failures	Ongoing login failures
+- <jail> Ban Time	Ban duration in seconds
+- Global Active Jails	Number of defined jails
+- Global Exporter Up	Exporter health status
