@@ -2,19 +2,21 @@
 
 # Fail2ban Exporter for Home Assistant
 
-A custom Home Assistant￼ integration that exposes metrics from a Fail2ban Prometheus Exporter￼ as sensors.
+A custom Home Assistant integration that exposes metrics from a Fail2ban Prometheus Exporter as sensors.
 It allows you to monitor Fail2ban jails, active bans, and login failures directly from Home Assistant.
 
 ⸻
 
 ## Requirements
 
-This integration depends on the Fail2ban Prometheus Exporter￼ by hctrdev.
+This integration depends on the [Fail2ban Prometheus Exporter](https://github.com/hctrdev/fail2ban-prometheus-exporter) by @hctrdev.
 
 The Docker image was originally designed for Prometheus and Grafana, but this integration allows Home Assistant to directly consume its metrics.
 
 The exporter must be running and reachable from your Home Assistant instance.
 
+
+## Host Installation
 Docker Run Example
 ``` bash
 docker run -d \
@@ -45,7 +47,7 @@ http://<your_host>:9191/metrics
 
 
 
-## Installation
+## HA Installation
 
 ### Option 1: Manual Installation
   1.	Copy the fail2ban_exporter folder into your Home Assistant custom_components directory:
@@ -56,10 +58,10 @@ http://<your_host>:9191/metrics
   2.	Restart Home Assistant.
 
 ### Option 2: HACS (Recommended)
-	1.	In Home Assistant, open HACS → Integrations → 3-dot menu → Custom repositories.
-	2.	Add your GitHub repository URL and select Integration as the category.
-	3.	Search for Fail2ban Exporter and install it.
-	4.	Restart Home Assistant.
+1.  In Home Assistant, open HACS → Integrations → 3-dot menu → Custom repositories.
+2.	Add your GitHub repository URL and select Integration as the category.
+3.	Search for Fail2ban Exporter and install it.
+4.	Restart Home Assistant.
 
 ⸻
 
