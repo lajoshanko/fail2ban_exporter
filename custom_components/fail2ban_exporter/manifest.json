@@ -1,0 +1,10 @@
+{
+  "domain": "fail2ban_exporter",
+  "name": "Fail2ban Exporter",
+  "version": "0.1.0",
+  "documentation": "https://github.com/lajoshanko/fail2ban_exporter/tree/main",
+  "requirements": ["aiohttp"],
+  "codeowners": ["@lajoshanko"],
+  "iot_class": "local_polling",
+  "config_flow": true
+}
