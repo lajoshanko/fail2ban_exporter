@@ -1,0 +1,19 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Connect to Fail2ban Exporter",
+        "description": "Enter the URL where your Fail2ban Exporter is exposed.",
+        "data": {
+          "url": "Exporter URL"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Could not connect to the exporter. Check the URL and try again."
+    },
+    "abort": {
+      "already_configured": "This exporter is already configured."
+    }
+  }
+}
