@@ -76,10 +76,10 @@ The integration will automatically discover all active jails and create sensors 
 ⸻
 
 ### Available Sensors
-Sensor Name	Description
-- <jail> Currently Banned IPs	Number of IPs currently banned
-- <jail> Total Banned IPs	Total number of bans since startup
-- <jail> Current Failures	Ongoing login failures
-- <jail> Ban Time	Ban duration in seconds
-- Global Active Jails	Number of defined jails
-- Global Exporter Up	Exporter health status
+
+- <jail> Currently Banned IPs	- Number of IPs currently banned
+- <jail> Total Banned IPs	- Total number of bans since startup
+- <jail> Current Failures	- Ongoing login failures
+- <jail> Ban Time	- Ban duration in seconds
+- Global Active Jails - Number of defined jails
+- Global Exporter Up - Exporter health status
