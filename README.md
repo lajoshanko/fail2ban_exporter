@@ -83,3 +83,6 @@ The integration will automatically discover all active jails and create sensors 
 - <jail> Ban Time	- Ban duration in seconds
 - Global Active Jails - Number of defined jails
 - Global Exporter Up - Exporter health status
+<img width="336" height="482" alt="Screenshot 2025-11-10 at 9 37 06" src="https://github.com/user-attachments/assets/eeacf5b8-5df9-4387-b26a-944bc025f6eb" />
+
+
